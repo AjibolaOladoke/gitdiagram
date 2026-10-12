@@ -6,13 +6,13 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![gitdiagram](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![gitdiagram](images/preview.png)](https://github.com/Swift-Tech-Co/gitdiagram)
 
 ## New: explainer videos
 
 GitDiagram can now turn a repository into a narrated video of about a minute. The video starts with what the project is for and what people do with it, then shows briefly how its main parts fit together and one decision under the hood.
 
-[![Watch GitDiagram explain itself in a minute](./docs/readme_video.jpg)](https://www.swifttechco.com)
+[![Watch GitDiagram explain itself in a minute](./docs/readme_video.jpg)](https://github.com/Swift-Tech-Co/gitdiagram)
 
 - **Watch the gallery →** or add `/video` to any diagram URL, such as `gitdiagram.com/owner/repo/video`.
 - **Download an MP4** in landscape or vertical (9:16), with captions burned in.
@@ -28,38 +28,38 @@ GitDiagram can now turn a repository into a narrated video of about a minute. Th
 
 ## Use GitDiagram from AI agents
 
-GitDiagram is a remote MCP server at `https://www.swifttechco.com (no key or sign-in). Agents can read a public repository's architecture explanation, components, connections and Mermaid source, search the stored diagrams, and get explainer videos.
+GitDiagram is a remote MCP server at `https://github.com/Swift-Tech-Co/gitdiagram (no key or sign-in). Agents can read a public repository's architecture explanation, components, connections and Mermaid source, search the stored diagrams, and get explainer videos.
 
-[![Add to Claude](https://img.shields.io/badge/Claude-Add_connector-D97757?style=flat-square&logo=claude&logoColor=white)](https://www.swifttechco.com)
-[![Install in Cursor](https://img.shields.io/badge/Cursor-Install_Server-000000?style=flat-square&logo=cursor&logoColor=white)](https://www.swifttechco.com)
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://www.swifttechco.com)
-[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://www.swifttechco.com)
+[![Add to Claude](https://img.shields.io/badge/Claude-Add_connector-D97757?style=flat-square&logo=claude&logoColor=white)](https://github.com/Swift-Tech-Co/gitdiagram)
+[![Install in Cursor](https://img.shields.io/badge/Cursor-Install_Server-000000?style=flat-square&logo=cursor&logoColor=white)](https://github.com/Swift-Tech-Co/gitdiagram)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://github.com/Swift-Tech-Co/gitdiagram)
+[![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://github.com/Swift-Tech-Co/gitdiagram)
 
 ```bash
 # Claude Code: the plugin adds the MCP server and a /gitdiagram skill
 claude plugin marketplace add ahmedkhaleel2004/gitdiagram
 claude plugin install gitdiagram@gitdiagram
 # ...or just the MCP server
-claude mcp add --transport http gitdiagram https://www.swifttechco.com
+claude mcp add --transport http gitdiagram https://github.com/Swift-Tech-Co/gitdiagram
 
 # Codex
-codex mcp add gitdiagram --url https://www.swifttechco.com
+codex mcp add gitdiagram --url https://github.com/Swift-Tech-Co/gitdiagram
 
 # Gemini CLI
-gemini extensions install https://www.swifttechco.com
+gemini extensions install https://github.com/Swift-Tech-Co/gitdiagram
 
 # GitHub Copilot CLI
-copilot mcp add --transport http gitdiagram https://www.swifttechco.com
+copilot mcp add --transport http gitdiagram https://github.com/Swift-Tech-Co/gitdiagram
 ```
 
-In other clients (ChatGPT, Windsurf, Zed, LM Studio, Goose and more), add a remote MCP server with the URL `https://www.swifttechco.com Then ask something like "how is fastapi/fastapi structured?".
+In other clients (ChatGPT, Windsurf, Zed, LM Studio, Goose and more), add a remote MCP server with the URL `https://github.com/Swift-Tech-Co/gitdiagram Then ask something like "how is fastapi/fastapi structured?".
 
 ## Run locally
 
 Requires Bun, Cloudflare R2, Upstash Redis, and an OpenAI or OpenRouter API key. See the [setup guide](docs/dev-setup.md) for prerequisites and configuration.
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/gitdiagram
 cd gitdiagram
 bun install
 cp .env.example .env
@@ -101,13 +101,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/gitdiagram
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
